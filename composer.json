@@ -1,0 +1,24 @@
+{
+    "name": "goosfraba/gps",
+    "authors": [
+        {
+            "name": "dbojdo",
+            "email": "daniel@bojdo.eu"
+        }
+    ],
+    "description": "A simple wrapper for GPS coordinates",
+    "keywords": ["gps", "coordinates", "distance", "calculation"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Goosfraba\\Gps\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "webit/bcmath": "^2.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2.5"
+    }
+}
